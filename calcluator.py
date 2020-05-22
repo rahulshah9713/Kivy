@@ -25,7 +25,7 @@ class MainApp(App):
             for label in row:
                 button = Button(
                     text=label,
-                    pos_hint={"center_x": 0.5, "center_y": 0.5},
+                    pos_hint={"center_x": 0.5, "center_y": 0.5}
                 )
                 button.bind(on_press=self.on_button_press)
                 h_layout.add_widget(button)
