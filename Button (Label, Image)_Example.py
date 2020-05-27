@@ -37,10 +37,7 @@ class HBoxLayoutExample(App):
         colors = [red, green, blue, purple]
 
         for i in range(10):
-            btn = Button(text="Button #%s" % (i+1),
-                         background_color=random.choice(colors)
-                         )
-
+            btn = Button(text="Button #%s" % (i+1), background_color=random.choice(colors))
             layout.add_widget(btn)
         return layout
 
